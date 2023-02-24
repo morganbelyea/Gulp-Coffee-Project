@@ -1,0 +1,161 @@
+body {
+  background-color: #082B59;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  line-height: 2;
+}
+h1, h2, h3 {
+  font-family: 'Poppins', sans-serif;
+}
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+/* make images flexible */
+img {
+  max-width: 100%;
+}
+a {
+  color: #59331d;
+}
+a:hover {
+  text-decoration: none;
+}
+header {
+  border-bottom: 10px solid #d98555;
+}
+/* navbar styling */
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+nav li {
+  margin: 0 1rem 1rem 1rem;
+  font-size: 1.3rem;
+}
+/* max width on the image in pixels */
+nav .logo img {
+  max-width: 150px;
+}
+/* flex basis on the image container, li */
+nav .logo {
+  flex-basis: 100%;
+  text-align: center;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  display: block;
+}
+nav a:hover {
+  color: #d98555;
+}
+/* establishes a white background */
+.main-bkgd {
+  background: #ffffff url(https://assets.codepen.io/6306176/gulp-bean-bkgd.jpg) repeat-x bottom;
+  padding-bottom: 300px;
+}
+/* sits inside of the white background, centered */
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+article {
+  flex-basis: 73%;
+}
+figure {
+  margin: 3rem 0 0 0;
+  flex-basis: 25%;
+  background-color: #59331d;
+  border-radius: 10px;
+}
+figure img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+figcaption {
+  color: #f2f2f2;
+  padding: 0.5rem;
+}
+.button {
+  display: inline-block;
+  background-color: #59331D;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  margin: 0;
+  color: #f2f2f2;
+  text-decoration: none;
+  border: 3px solid #59331d;
+}
+.button:hover {
+  background-color: #f2f2f2;
+  color: #59331d;
+}
+footer {
+  color: #f2f2f2;
+  text-align: center;
+  border-top: 10px solid #d98555;
+}
+footer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+footer a {
+  color: #f2f2f2;
+  font-size: 2rem;
+  display: block;
+  margin: 0 1rem 3rem 1rem;
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+  .container{
+  display: flex;
+  justify-content:space-between;
+  gap: 40px;
+  max-width:1000px;
+  margin:0px auto;
+}
+  
+  <section class="content"></section>
+   <section class="content">
+    
+<div class="container">
+  
+<article>
+  <h1>About Us</h1>
+
+<p>Life without coffee is a gloomy place. That's why Gulp Roast has been proudly serving up fresh coffee to the <a class="map" href="https://goo.gl/maps/3rAyszfwSDx8Si2Y9">San Francisco area</a> since 2000. Our coffee is locally sourced with the most delicious blends coming directly to your home, right from coffee farmers near you. Our coffee makes even the most difficult days just a tad easier to get through.</p>
+
+<p>For us, this isn't just brewing coffee. This is an active life mission to bring our customers the most flavorful, full-bodied beverages we can get our hands on. Browse our site to learn more about  our locations and sourcing techniques.</p>
+
+  <button class="button">Contact Us</button>
+</article>
+  
+  <aside>
+    <div class="card">
+    <img src="https://assets.codepen.io/6306176/gulp-pouring-coffee-vertical.jpg" alt="Include an image     with caption here." class="cardimg"></img>
+  
+  <p>Our pour-over coffee is known for its freshness and amazing taste.</p>
+   <br>
+  </div>
+ 
+  </aside>
+    
+</div>
+
+  </section>
